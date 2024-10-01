@@ -164,7 +164,6 @@ namespace BarbeariaMVC.Services.Cliente
             {
                 var clientes = await _context.Clientes.Where(clienteBanco => clienteBanco.Nome.Contains(pesquisar)).ToListAsync();
                 return clientes;
-
             }
             catch (Exception ex)
             {

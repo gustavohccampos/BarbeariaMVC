@@ -12,6 +12,6 @@ namespace BarbeariaMVC.Services.Cliente
         Task<ClienteModel> UpdateCliente(ClienteModel cliente, IFormFile? foto);
         Task<ClienteModel> DeleteCliente(int id);
 
-        Task<List<ClienteModel>> GetClientesFiltro(string? pesquisar);
+        Task<List<ClienteModel>> GetClientesFiltro( string? pesquisar);
     }
 }

@@ -83,7 +83,6 @@ namespace BarbeariaMVC.Controllers;
             var clientes = await _clienteInterface.GetClientesFiltro(pesquisar);
             return View(clientes);
         }
-
     }
 
 
